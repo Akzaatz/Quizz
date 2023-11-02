@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quizz Laurent Garnier</title>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <h1>QUIZZ : Connais-tu Laurent Garnier ?</h1>
+    <div class="main-container">
+      <form class="form-quizz">
+        <div class="question-card">
+          <h4>Quelle est la date naissance de laurent Garnier ?</h4>
+          <div>
+            <input type="radio" id="date1" name="q1" value="a" checked />
+            <label for="date1">1er février 1964</label>
+          </div>
+          <div>
+            <input type="radio" id="date2" name="q1" value="b" />
+            <label for="date2">1er février 1966</label>
+          </div>
+          <div>
+            <input type="radio" id="date3" name="q1" value="c" />
+            <label for="date3">1er février 1969</label>
+          </div>
+        </div>
+        <div class="question-card">
+          <h4>Quel est le nom du club dans lequel il a fait ses débuts?</h4>
+          <div>
+            <input type="radio" id="Rex" name="q2" value="a" checked />
+            <label for="Rex">Le Rex Club</label>
+          </div>
+          <div>
+            <input type="radio" id="Hacienda" name="q2" value="b" />
+            <label for="Hacienda">L'Hacienda</label>
+          </div>
+          <div>
+            <input type="radio" id="Palace" name="q2" value="c" />
+            <label for="Palace">Le Palace</label>
+          </div>
+        </div>
+        <div class="question-card">
+          <h4>Quel est le nom de son Label ?</h4>
+          <div>
+            <input type="radio" id="Mcom" name="q3" value="a" checked />
+            <label for="Mcom">M Communications</label>
+          </div>
+          <div>
+            <input type="radio" id="Lcom" name="q3" value="b" />
+            <label for="Lcom">L Communications</label>
+          </div>
+          <div>
+            <input type="radio" id="Fcom" name="q3" value="c" />
+            <label for="Fcom">F Comminication</label>
+          </div>
+        </div>
+        <div class="question-card">
+          <h4>Quel est le nom des son émission de radio mythique ?</h4>
+          <div>
+            <input type="radio" id="Itis" name="q4" value="a" checked />
+            <label for="Itis">It is What it is</label>
+          </div>
+          <div>
+            <input type="radio" id="next" name="q4" value="b" />
+            <label for="next">What's Next</label>
+          </div>
+          <div>
+            <input type="radio" id="Box" name="q4" value="c" />
+            <label for="Box">Into the Box</label>
+          </div>
+        </div>
+        <div class="question-card">
+          <h4>
+            Quel est le nom du groupe Rock avec lequel il a co-produit l'album
+            Pellicula en 2021
+          </h4>
+          <div>
+            <input type="radio" id="Lim" name="q5" value="a" checked />
+            <label for="Lim">Limiñanas</label>
+          </div>
+          <div>
+            <input type="radio" id="Kills" name="q5" value="b" />
+            <label for="">The Kills</label>
+          </div>
+          <div>
+            <input type="radio" id="Feu" name="q5" value="c" />
+            <label for="Feu">Feu Chatterton</label>
+          </div>
+        </div>
+        <button type="submit">Enter Your Choises</button>
+      </form>
+      <div class="resultats">
+        <h2>CLiquez sur valider pour voir les Résultats</h2>
+        <p class="aides"></p>
+        <p class="notes"></p>
+      </div>
+    </div>
+  </body>
+</html>
